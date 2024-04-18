@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('image/220362.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container,
+.login-container {
+    width: 300px;
+    margin: auto; /* Centrer horizontalement */
+    margin-top: 100px; /* Garder uniquement la marge supérieure */
+    background-color: rgba(255, 255, 255, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Ajouter une position absolue */
+    top: 35%; /* Aligner le haut du conteneur au centre vertical */
+    left: 50%; /* Aligner la gauche du conteneur au centre horizontal */
+    transform: translate(-50%, -50%); /* Déplacer le conteneur de moitié de sa largeur et de moitié de sa hauteur vers le haut et vers la gauche */
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #085706;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #028102;
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+    margin-top: 10px;
+}
+
+p {
+    color: red;
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
+
+.button-container {
+    margin-top: 20px; /* Ajoute un espace au-dessus des boutons */
+}
+
+.button-container button {
+    margin-right: 10px; /* Ajoute un espace à droite de chaque bouton */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.inscription-form {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #01c501;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #01c501;
+}
