@@ -143,6 +143,8 @@ app.post('/api/register', (req, res) => {
     });
 });
 
+//les autres fonctionnalité
+
 // Démarrer le serveur et afficher l'URL où il est en cours d'exécution
 app.listen(port, () => {
     console.log(`Le serveur est en cours d'exécution sur http://:${port}`);
