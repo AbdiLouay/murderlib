@@ -51,10 +51,13 @@ function getCookie(name) {
     if (match) return match[2];
 }
 
-// Fonction pour afficher le contenu après la connexion réussie
 function showLoggedInContent() {
+    // Cacher le formulaire de connexion
     document.getElementById('login-form').style.display = 'none';
+    // Afficher le message de connexion réussie
     document.getElementById('login-success').style.display = 'block';
+    // Rediriger vers la nouvelle page
+    window.location.href = 'http://192.168.65.77/front3/tueur.html'; // Remplacez 'nouvelle_page.html' par l'URL de la page souhaitée
 }
 
  // Gestionnaire d'événements pour le bouton de déconnexion
